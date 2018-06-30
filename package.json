@@ -1,0 +1,20 @@
+{
+  "name": "movie-list",
+  "version": "1.0.0",
+  "description": "Make an app that utilizes React for Practice",
+  "author": "Tristan Carter",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "babel . -w --out-dir compiled --presets=env,react --ignore=node_modules,compiled --source-maps inline | live-server --open=./index.html"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
